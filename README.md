@@ -42,6 +42,6 @@
 
 - [ ] 공용 times
 
-- [ ] Dollar 와 Franc 비교하기
+- [ ] **Dollar 와 Franc 비교하기**
 
 
