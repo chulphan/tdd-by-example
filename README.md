@@ -10,7 +10,7 @@
 
 - [ ] amount 를 private으로 변경하기
 
-- [ ] Dollar 부작용(Side Effect??)
+- [ ] **Dollar 부작용(Side Effect??)** (-> Dollar 에 대한 연산을 수행한 후 해당 Dollar의 값이 바뀌는 점)
 
 - [ ] Money 반올림??
 
