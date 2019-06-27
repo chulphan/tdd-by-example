@@ -26,4 +26,12 @@
 
 - [ ] Money 반올림??
 
+- [x] equals() (일시적해결. null이나 다른 객체들과 비교하면??)
+
+- [ ] Equal null
+
+- [ ] Equal object
+
+- [ ] hashCode()
+
 
