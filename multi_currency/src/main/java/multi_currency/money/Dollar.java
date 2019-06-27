@@ -13,8 +13,9 @@ package multi_currency.money;
  *
  */
 public class Dollar {
-	
-	int amount;
+	// amount 변수를 사용하는 곳은 Dollar 자신밖에 없으므로 
+	// 이 변수의 접근타입을 private로 바꿔도 된다.
+	private int amount;
 	
 	public Dollar(int amount) {
 		this.amount = amount;
