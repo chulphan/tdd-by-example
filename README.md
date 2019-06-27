@@ -42,6 +42,8 @@
 
 - [ ] 공용 times
 
-- [ ] **Dollar 와 Franc 비교하기**
+- [x] Dollar 와 Franc 비교하기
+
+- [ ] 통화개념 도입?
 
 
