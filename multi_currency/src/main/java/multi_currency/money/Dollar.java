@@ -12,10 +12,9 @@ package multi_currency.money;
  * 첫번째 Dollar에 5를 설정하고 두번째 Dollar에 10을 설정했다고 해서 첫번째 Dollar에 설정한 값이 영향을 받지 않는다.
  *
  */
-public class Dollar {
+public class Dollar extends Money {
 	// amount 변수를 사용하는 곳은 Dollar 자신밖에 없으므로 
 	// 이 변수의 접근타입을 private로 바꿔도 된다.
-	private int amount;
 	
 	public Dollar(int amount) {
 		this.amount = amount;
@@ -23,11 +22,5 @@ public class Dollar {
 	
 	Dollar times(int multiplier) {
 		return new Dollar(amount * multiplier);
-	}
-	
-	public boolean equals(Object object) {
-		Dollar dollar = (Dollar) object;
-		
-		return amount == dollar.amount;
 	}
 }
