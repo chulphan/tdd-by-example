@@ -40,7 +40,7 @@
 
 - [x] 공용 equals
 
-- [ ] **공용 times**
+- [x] 공용 times
 
 - [x] Dollar 와 Franc 비교하기
 
