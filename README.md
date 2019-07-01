@@ -36,7 +36,7 @@
 
 - [x] 5CHF * 2 = 10CHF
 
-- [ ]**Dollar/Franc 중복**
+- [x] Dollar/Franc 중복
 
 - [x] 공용 equals
 
@@ -46,4 +46,4 @@
 
 - [x] 통화개념 도입?
 
-- [ ] testFrancMultiplication 을 지워야하나????
+- [x] testFrancMultiplication 을 지워야하나????(지웠다.)
