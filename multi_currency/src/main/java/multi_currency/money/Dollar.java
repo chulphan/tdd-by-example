@@ -13,14 +13,16 @@ package multi_currency.money;
  *
  */
 public class Dollar extends Money {
-	// amount 변수를 사용하는 곳은 Dollar 자신밖에 없으므로 
-	// 이 변수의 접근타입을 private로 바꿔도 된다.
 	
-	public Dollar(int amount) {
-		this.amount = amount;
+	public Dollar(int amount, String currency) {
+		super(amount, currency);
 	}
 	
 	Money times(int multiplier) {
-		return new Dollar(amount * multiplier);
+		return Money.dollar(amount * multiplier);
+	}
+	
+	String currency() {
+		return this.currency;
 	}
 }
